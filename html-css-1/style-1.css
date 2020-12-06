@@ -1,0 +1,60 @@
+*{
+    margin: 1px;
+}
+.container-head{
+    background-color: salmon;
+    margin: 0px;
+    border: 1px solid;
+    height: 150px    
+}
+
+.container-mid{
+    margin-top: 10px;
+    border: 5px dotted;
+    height:350px
+}
+.container-foot{
+    margin-top: 10px;
+    border: 5px dotted;
+    height:350px
+}
+.abouthtml5{
+    margin-left: 5px;
+    display: inline-block;
+    padding-right:20px;
+}
+.css-logo{
+    margin-top: 5px;
+    float: right;
+    width: 100px;
+    height: 150px;  
+}
+.html-logo{
+    margin-top: 5px;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.paragraph2{
+    margin-left: 5px;
+    margin-top:20px
+}
+.paragraph1{
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.welcome{
+    font-size: 30px;
+    padding-left:-20px;
+}
+.nav{
+    list-style:none;
+    text-align:center;
+    padding:60px 400px 10px 5px;
+}
+.nav > li{
+    display:inline-block;
+    padding-right:50px;
+}
+/*log oneeds to be moved down, "About HTML5" is on the left top corner 
+but the logo blocks it."*/
