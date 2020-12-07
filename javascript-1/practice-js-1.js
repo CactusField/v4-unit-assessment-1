@@ -68,7 +68,7 @@ trueOrFalse()*/
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-
+faveColors.slice();
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
