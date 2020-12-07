@@ -59,7 +59,7 @@ var clone = {
 var status = {
     description: "see the status of changes to the code",
     code: "git status"
-}
+};
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
