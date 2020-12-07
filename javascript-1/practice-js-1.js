@@ -32,16 +32,7 @@ return num1+num2;
 */
 
 //CODE HERE
-function trueOrFalse(data){
-  
-}
-/*if (data === true){
-  return true;
-};
-if (data === false){
-  return false;
-};
-trueOrFalse()*/
+
 //////////////////PROBLEM 6////////////////////
 /*
   Create a function called 'oddChecker' that takes in one parameter, 'num'. 
@@ -51,6 +42,12 @@ trueOrFalse()*/
 */
 
 //CODE HERE
+function oddChecker(num){
+if (num%2===0)
+  return "the number is even";
+if (num%2===1)
+  return "the number is odd";
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -60,7 +57,11 @@ trueOrFalse()*/
 */
 
 //CODE HERE
+/*function iLove(name , love){
+  iLove("Bryan", "skateboarding")
+  return iLove(name + "loves" + love);
 
+}*/
 
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
@@ -68,12 +69,14 @@ trueOrFalse()*/
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-faveColors.slice();
+let colorCopy = faveColors.slice();
+colorCopy();
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
-
+colorCopy.push("Blue")
+colorCopy.push();
 //////////////////PROBLEM 10////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -99,7 +102,11 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 //CODE HERE
-
+const me = {
+  firstName: "Andrew",
+  state: "Texas",
+  age:"23",
+};
 //////////////////PROBLEM 12////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -114,6 +121,7 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 // CODE HERE
+/*function bigOrSmall([arr])*/
 
 //////////////////PROBLEM 13////////////////////
 /* 
